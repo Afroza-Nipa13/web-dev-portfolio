@@ -1,0 +1,110 @@
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+.open-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    /* background-color:black; */
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/* shared style */
+.text-primary{
+    color: #265ef8;
+}
+/* header */
+
+
+/* nav style */
+nav{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    margin: 0px 200px;
+    
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items:center;
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+/* banner styles? */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 35px 0px 230px;
+}
+
+.banner-content{
+
+    max-width:624px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+
+
+ }
+
+ .banner-title{
+    font-size: 85px;
+    font-weight: bold;
+
+
+ }
+
+
+
+
+.dark-2{
+      color:#474747 ;
+}
+
+.btn-primary{
+    background-color: #265ef8;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 13px 30px;
+    border-radius: 5px;
+    border: none;
+
+  
+}
+
+.banner-profile-pic{
+          width: 500px;
+}
