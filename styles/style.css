@@ -98,6 +98,9 @@ nav li a{
 .dark-2{
       color:#474747 ;
 }
+.dark-3{
+    color: #757575;
+}
 
 .btn-primary{
     background-color: #265ef8;
@@ -132,12 +135,18 @@ nav li a{
     /* height: 549; */
     margin:0 auto;
 }
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about section  */
 .about{
      border-radius: 10px;
      padding:130px 150px ;
      text-align: center;
-     margin-top: 100px;
+    
+     
      
 }
 .item-description{
@@ -147,5 +156,33 @@ nav li a{
 .about-items{
     display: flex;
     justify-content: space-around;
-    background-color: aliceblue;
+    
+}
+/* do styles are here  */
+.do{
+    background-color: white;
+
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+
+.skill{
+   padding: 30px;
+   box-shadow: 0px 6px 60px 0px rgba(129, 126, 126, 0.6);
+   opacity: 6; 
+   border-radius: 5px;      
+}
+    
+
+.skill-title{
+
+
+}
+.skill-description{
+
+
 }
